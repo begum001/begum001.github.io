@@ -1,0 +1,278 @@
+body {
+    width: fit-content;
+    margin: 0px;
+    height: 100vw;
+    font-size: 1.10vw;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+#main-header {
+    display: flex;
+    padding: 10px;
+    height: fit-content;
+    /* background-color: rgb(77, 114, 88); */
+    /* background-color: #6E7783; */
+    background-color: #b07c65;
+    text-align: center;
+    justify-content: space-around;
+    grid-area: header;
+}
+
+#logo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 7vw;
+    font-family: "Dancing Script";
+    color: rgb(56, 9, 9);
+    text-shadow: 7px 7px 10px rgba(56, 9, 9, 0.463);
+    /* text-shadow: 2px 2px 5px rgb(105, 164, 130); */
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.hnav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hform {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbutton {
+    color: rgb(56, 9, 9);
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(59, 14, 14);
+    border-radius: 10%;
+    font-family: "Playwrite DK Uloopet", Arial, sans-serif;
+}
+
+#aside {
+    padding: 13px;
+    padding-left: 30px;
+    width: 13.5vw;
+    height: 85.65vw;
+    /* background-color: #549a71; */
+    /* background-color: #9DC3C1; */
+    background-color: #D09E88;
+    font-family: "Playwrite DK Uloopet";
+    grid-area: aside;
+}
+
+h4 {
+    font-family: "Playwrite CU";
+    color: rgb(43, 10, 10);
+}
+
+h3 {
+    font-family: "Playwrite CU";
+    color: rgb(43, 10, 10);
+
+}
+
+.a-li > a {
+    display: flex;
+    text-decoration: none;
+    margin: 4px;
+    padding: 2.5px;
+    color: rgb(45, 16, 16);
+}
+
+.a-li > a:hover {
+    text-decoration: underline;
+}
+
+#filter {
+    text-decoration: underline;
+}
+
+#main-content {
+    padding: 15px;
+    width: 82vw;
+    height: 85vw;
+    padding-bottom: 20px;
+    justify-content: center;
+    /* background-color: #5CAB7D; */
+    /* background-color: #D8E6E7; */
+    background-color: #FADAD8;
+    grid-area: main;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.img1 {
+    margin-top: 20px;
+    height: 20vw;
+    width: 20vw;
+}
+
+.img2 {
+    margin-top: 20px;
+    height: 19vw;
+    width: 20vw;
+}
+
+.img3 {
+    margin-top: 20px;
+    height: 19vw;
+    width: 20vw;
+}
+
+.img4 {
+    margin-top: 20px;
+    height: 18vw;
+    width: 20vw;
+}
+
+article {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 20vw;
+    width: fit-content;
+    text-justify: left;
+    grid-area: main;
+}
+
+.m-h2 > a {
+    color: rgb(59, 14, 14);
+    text-decoration: none;
+    font-size: 1.75em;
+    font-family: "Satisfy";
+}
+
+.m-h2 > a:hover {
+    text-decoration: underline;
+}
+
+.m-h3 > a {
+    color: rgb(45, 16, 16);
+    text-decoration: none;
+}
+
+.m-h3 > a:hover {
+    text-decoration: underline;
+}
+
+#main-text {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+    font-family: "Playwrite DK Uloopet", Arial, sans-serif;
+    color: rgb(45, 16, 16);
+    grid-area: main;
+}
+
+#form {
+    display: flex;
+    /* background-color: #5a8e69; */
+    /* background-color: #77AAAD; */
+    background-color: #c09684;
+    padding: 25px;
+    width: 99;
+    height: fit-content;
+    justify-content: space-evenly;
+    font-family: "Playwrite DK Uloopet", Arial, sans-serif;
+    font-size: medium;
+    color: rgb(45, 16, 16);
+    grid-area: form;
+}
+
+#form-h2 {
+    font-family: "Playwrite DK Uloopet";
+    color: rgb(59, 14, 14);
+}
+
+#main-footer {
+    display: flex;
+    padding: 4.5px;
+    height: 12vw;
+    width: 99.9vw;
+    font-family: "Playwrite DK Uloopet";
+    font-size: 12px;
+    /* background-color: rgb(77, 114, 88); */
+    /* background-color: #6E7783; */
+    background-color: #b07c65;
+    color: black;
+    text-align: left;
+    justify-content: space-between;
+    grid-area: footer;
+}
+
+#fh2 {
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 50px;
+    height: 10px;
+    width: fit-content;
+    font-size: 4em;
+    font-family: "Dancing Script";
+    color: rgb(56, 9, 9);
+    text-shadow: 3px 3px 6px rgba(56, 9, 9, 0.463);
+}
+
+#fh3 {
+    font-family: "Playwrite CU";
+    font-size: 20px;
+}
+
+.sm {
+    height: 2vw;
+    width: fit-content;
+}
+
+.sm-li > a {
+    text-decoration: none;
+    color: rgb(45, 16, 16);
+}
+
+.sm-li > a:hover {
+    text-decoration: underline;
+}
+
+.contacts > a {
+    display: flex;
+    height: 2vw;
+    width: fit-content;
+    color: rgb(45, 16, 16);
+}
+
+.info {
+    height: 2vw;
+    width: fit-content;
+}
+
+.info-li > a {
+    text-decoration: none;
+    color: rgb(45, 16, 16);
+}
+
+.info-li > a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    height: 2vw;
+    width: fit-content;
+    padding: 20px;
+    padding-right: 50px;
+    margin-top: 90px;
+    text-align: right;
+    color: rgb(45, 16, 16);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "form form"
+    "footer footer"
+    "copyright copyright";
+}
