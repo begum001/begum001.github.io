@@ -265,6 +265,7 @@ article {
     margin-top: 90px;
     text-align: right;
     color: rgb(45, 16, 16);
+    grid-area: copyright;
 }
 
 #grid-container {
@@ -275,6 +276,5 @@ article {
     "form form"
     "footer footer"
     "copyright copyright";
-    grid-template-columns: 2fr;
-    grid-template-rows: 5fr;
+    grid-template-columns: 1fr 3fr;
 }
