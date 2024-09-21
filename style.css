@@ -275,4 +275,6 @@ article {
     "form form"
     "footer footer"
     "copyright copyright";
+    grid-template-columns: 2fr;
+    grid-template-rows: 5fr;
 }
